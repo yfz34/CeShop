@@ -34,7 +34,7 @@ Amazon Web Services
 ## 資料庫架構
 
 - 商品與貨品規格關聯表
-  ![database1](https://github.com/yfz34/CeShop/tree/master/assets/database1.png)
+  ![database1](https://github.com/yfz34/CeShop/blob/master/assets/database1.png)
 
 - 購物車與訂單關聯表
-  ![database1](https://github.com/yfz34/CeShop/tree/master/assets/database2.png)
+  ![database2](https://github.com/yfz34/CeShop/blob/master/assets/database2.png)
