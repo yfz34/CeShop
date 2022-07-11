@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+  ceshop_app:
+    container_name: ceshop_app
+    restart: always
+    build: ./ceshop_app
+    ports:
+      - "5000:5000"
+  
+  nginx:
+    container_name: nginx
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - ceshop_app
