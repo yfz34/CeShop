@@ -2,6 +2,21 @@
 
 使用 React + .Net5 開發
 
+## Demo
+
+- 前台
+  http://52.198.165.178/
+  測試帳號: test
+  測試密碼: Test123
+
+- 後台
+  http://52.198.165.178/backstage
+  管理員帳號: admin
+  管理員密碼: Admin123
+
+- Swagger API 文件
+  http://52.198.165.178/swagger/index.html
+
 ## 使用技術
 
 ### 前端
@@ -75,9 +90,10 @@ cd .\src\CeShop.Api\
 
 2. 修改 appsettings.json 設定
 
-3. 啟動
+3. 建置與啟動
 
 ```
+dotnet build
 dotnet run
 ```
 
